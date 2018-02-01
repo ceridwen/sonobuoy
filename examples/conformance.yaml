@@ -99,7 +99,7 @@ data:
             "advertiseaddress": "sonobuoy-master:8080",
             "bindaddress": "0.0.0.0",
             "bindport": 8080,
-            "timeoutseconds": 5400
+            "timeoutseconds": 54000
         },
         "Version": "v0.10.0"
     }
