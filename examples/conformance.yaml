@@ -130,7 +130,9 @@ data:
       containers:
       - env:
         - name: E2E_FOCUS
-          value: Conformance
+          value: sig-network|Conformance
+        - name: E2E_SKIP
+          value:
         image: gcr.io/heptio-images/kube-conformance:latest
         imagePullPolicy: Always
         name: e2e
