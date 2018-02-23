@@ -132,7 +132,7 @@ data:
         - name: E2E_FOCUS
           value: sig-network|Conformance
         - name: E2E_SKIP
-          value:
+          value: 'should create pod that uses dns|Network should set TCP CLOSE_WAIT timeout|should allow (e|in)gress access on one named port|should support simple GET on Ingress ips|should be consumable from pods in volume (with mappings )?as non-root|be able to send traffic between Pods without SNAT|should provide unchanging, static URL paths for kubernetes api services'
         image: gcr.io/heptio-images/kube-conformance:latest
         imagePullPolicy: Always
         name: e2e
